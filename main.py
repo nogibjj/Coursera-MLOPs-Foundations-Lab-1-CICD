@@ -15,7 +15,7 @@ def add_cli(a, b):
     """Add two numbers together
 
     Example:
-        ./main.py add 1 2
+        ./main.py 1 2
     """
 
     click.echo(click.style(str(add(a, b)), fg="green"))
